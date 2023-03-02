@@ -1,0 +1,26 @@
+{
+  "name": "user-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": " NODE_ENV=development nodemon ./bin/www",
+    "start": "NODE_ENV=production node ./bin/www",
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-oas-generator": "^1.0.46",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.8.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
